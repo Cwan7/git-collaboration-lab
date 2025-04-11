@@ -19,6 +19,7 @@ const App = () => {
     <>
     <h1>Hello world!</h1>
     <Students />
+    <Discgolf disc={discGolfDiscs}/>
     </>
   );
 }
