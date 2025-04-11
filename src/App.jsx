@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Students from './Students';
 import Footer from './components/Footer';
 import NavBar from './components/NavBar';
+import Discgolf from './components/Discgolf.jsx'
 
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
     <h1>Hello world!</h1>
     <Students />
     <Footer />
+    <Discgolf disc={discGolfDiscs}/>
     </>
   );
 }
