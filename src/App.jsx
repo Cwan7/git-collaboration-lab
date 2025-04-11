@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Students from './Students';
 
 const App = () => {
 
@@ -15,7 +16,10 @@ const App = () => {
     { name: "Innova Aviar", speed: 2, glide: 3, turn: 0, fade: 1 }
   ];
   return (
+    <>
     <h1>Hello world!</h1>
+    <Students />
+    </>
   );
 }
 
