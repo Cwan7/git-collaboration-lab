@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import Students from './Students';
+import Footer from './components/Footer';
+
 
 const App = () => {
 
@@ -19,6 +21,7 @@ const App = () => {
     <>
     <h1>Hello world!</h1>
     <Students />
+    <Footer />
     </>
   );
 }
