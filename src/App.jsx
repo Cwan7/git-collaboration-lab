@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Students from './Students';
 import Footer from './components/Footer';
+import NavBar from './components/NavBar';
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
   ];
   return (
     <>
+    <NavBar />
     <h1>Hello world!</h1>
     <Students />
     <Footer />
