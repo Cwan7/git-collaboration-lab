@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Students from './Students';
 import NavBar from './components/NavBar';
+import Discgolf from './components/Discgolf.jsx'
 
 const App = () => {
 

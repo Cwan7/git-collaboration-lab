@@ -2,11 +2,12 @@ const Discgolf = (props) => {
 
     return (
         <>
-        {Discgolf.map((disc) => (
+        {props.disc.map((disc, index) => (
             <div key={index}>
-                <h1>{disc.name}</h1>
+                <h3>{disc.name}</h3>
             </div>
         ))}
         </>
     )
 }
+export default Discgolf;
